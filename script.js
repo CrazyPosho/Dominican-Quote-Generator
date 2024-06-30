@@ -15,8 +15,8 @@ function getRandomNumber() {
   return Math.floor(Math.random() * 24);
 }
 function assingPhrase(data, random) {
-  quote.textContent = data[random].frase;
-  author.textContent = data[random].autor;
+  quote.textContent = data[random].quote;
+  author.textContent = data[random].author;
 }
 function refresh() {
   location.reload();
