@@ -1,0 +1,48 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #f0f8ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  color: #408f40;
+  margin-bottom: 30px;
+}
+
+#quote-container {
+  margin-bottom: 20px;
+}
+
+#quote {
+  font-family: "Georgia", serif;
+  font-size: 24px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+#author {
+  font-size: 18px;
+  color: #777;
+}
+
+button {
+  background-color: #408f40;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
