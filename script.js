@@ -20,8 +20,8 @@ document.addEventListener("DOMContentLoaded", () => {
     return Math.floor(Math.random() * max);
   }
 
-  function assignPhrase({ quote: quoteText, author: authorText }) {
+  function assignPhrase({ quote: quoteText, meaning: meaningText }) {
     quote.textContent = quoteText;
-    author.textContent = authorText;
+    author.textContent = meaningText;
   }
 });
